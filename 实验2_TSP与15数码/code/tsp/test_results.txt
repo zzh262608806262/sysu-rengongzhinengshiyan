@@ -1,0 +1,165 @@
+开始自动测试TSP数据集...
+成功导入模块
+
+============================================================
+数据集: Djibouti (38 cities)
+文件路径: e:\AI-Experiments-Repo\实验2_TSP与15数码\code\tsp\data/dj38.tsp
+成功读取数据集，城市数量: 38
+
+----------------------------------------
+测试参数: 配置1: 小种群
+种群大小=50, 变异率=0.01, 交叉率=0.8, 迭代次数=1000, 早停代数=50
+Generation 100: Best distance = 17899.22
+Generation 200: Best distance = 15945.80
+Early stopping at generation 297: No improvement for 50 generations
+最佳距离: 15681.53
+运行时间: 0.21s
+最佳路线长度: 38
+
+----------------------------------------
+测试参数: 配置2: 标准参数
+种群大小=100, 变异率=0.01, 交叉率=0.8, 迭代次数=1000, 早停代数=50
+Generation 100: Best distance = 17412.01
+Generation 200: Best distance = 14841.67
+Early stopping at generation 206: No improvement for 50 generations
+最佳距离: 14841.67
+运行时间: 0.30s
+最佳路线长度: 38
+
+----------------------------------------
+测试参数: 配置3: 大种群
+种群大小=200, 变异率=0.01, 交叉率=0.8, 迭代次数=1000, 早停代数=50
+Generation 100: Best distance = 18180.31
+Generation 200: Best distance = 16250.75
+Generation 300: Best distance = 15647.31
+Generation 400: Best distance = 14226.12
+Early stopping at generation 403: No improvement for 50 generations
+最佳距离: 14226.12
+运行时间: 1.26s
+最佳路线长度: 38
+
+----------------------------------------
+测试参数: 配置4: 高变异率
+种群大小=100, 变异率=0.05, 交叉率=0.8, 迭代次数=1000, 早停代数=50
+Generation 100: Best distance = 16358.65
+Generation 200: Best distance = 13447.53
+Early stopping at generation 290: No improvement for 50 generations
+最佳距离: 12039.50
+运行时间: 0.42s
+最佳路线长度: 38
+
+----------------------------------------
+测试参数: 配置5: 高交叉率
+种群大小=100, 变异率=0.01, 交叉率=0.9, 迭代次数=1000, 早停代数=50
+Generation 100: Best distance = 15742.86
+Generation 200: Best distance = 14301.06
+Generation 300: Best distance = 13414.53
+Early stopping at generation 354: No improvement for 50 generations
+最佳距离: 13323.39
+运行时间: 0.55s
+最佳路线长度: 38
+
+----------------------------------------
+测试参数: 配置6: 长迭代
+种群大小=100, 变异率=0.01, 交叉率=0.8, 迭代次数=2000, 早停代数=100
+Generation 100: Best distance = 19936.39
+Generation 200: Best distance = 17664.92
+Generation 300: Best distance = 13486.93
+Generation 400: Best distance = 11563.86
+Early stopping at generation 500: No improvement for 100 generations
+最佳距离: 11563.86
+运行时间: 0.71s
+最佳路线长度: 38
+
+============================================================
+数据集: Western Sahara (29 cities)
+文件路径: e:\AI-Experiments-Repo\实验2_TSP与15数码\code\tsp\data/wi29.tsp
+成功读取数据集，城市数量: 29
+
+----------------------------------------
+测试参数: 配置1: 小种群
+种群大小=50, 变异率=0.01, 交叉率=0.8, 迭代次数=1000, 早停代数=50
+Generation 100: Best distance = 45913.98
+Generation 200: Best distance = 44733.33
+Early stopping at generation 209: No improvement for 50 generations
+最佳距离: 44733.33
+运行时间: 0.10s
+最佳路线长度: 29
+
+----------------------------------------
+测试参数: 配置2: 标准参数
+种群大小=100, 变异率=0.01, 交叉率=0.8, 迭代次数=1000, 早停代数=50
+Generation 100: Best distance = 47054.14
+Early stopping at generation 150: No improvement for 50 generations
+最佳距离: 47054.14
+运行时间: 0.16s
+最佳路线长度: 29
+
+----------------------------------------
+测试参数: 配置3: 大种群
+种群大小=200, 变异率=0.01, 交叉率=0.8, 迭代次数=1000, 早停代数=50
+Generation 100: Best distance = 49528.93
+Generation 200: Best distance = 44438.47
+Early stopping at generation 256: No improvement for 50 generations
+最佳距离: 43243.46
+运行时间: 0.56s
+最佳路线长度: 29
+
+----------------------------------------
+测试参数: 配置4: 高变异率
+种群大小=100, 变异率=0.05, 交叉率=0.8, 迭代次数=1000, 早停代数=50
+Generation 100: Best distance = 50797.35
+Generation 200: Best distance = 45964.76
+Generation 300: Best distance = 40898.14
+Generation 400: Best distance = 38812.59
+Early stopping at generation 435: No improvement for 50 generations
+最佳距离: 38812.59
+运行时间: 0.46s
+最佳路线长度: 29
+
+----------------------------------------
+测试参数: 配置5: 高交叉率
+种群大小=100, 变异率=0.01, 交叉率=0.9, 迭代次数=1000, 早停代数=50
+Generation 100: Best distance = 52565.00
+Generation 200: Best distance = 41773.18
+Generation 300: Best distance = 38636.46
+Early stopping at generation 314: No improvement for 50 generations
+最佳距离: 38636.46
+运行时间: 0.35s
+最佳路线长度: 29
+
+----------------------------------------
+测试参数: 配置6: 长迭代
+种群大小=100, 变异率=0.01, 交叉率=0.8, 迭代次数=2000, 早停代数=100
+Generation 100: Best distance = 51004.65
+Generation 200: Best distance = 43636.00
+Generation 300: Best distance = 40144.04
+Generation 400: Best distance = 40046.63
+Early stopping at generation 402: No improvement for 100 generations
+最佳距离: 40046.63
+运行时间: 0.42s
+最佳路线长度: 29
+
+============================================================
+测试完成！汇总结果：
+============================================================
+
+数据集: Djibouti (38 cities) (38 个城市)
+参数配置                 种群大小       变异率        交叉率        最佳距离            运行时间(s)     
+--------------------------------------------------------------------------------
+配置1: 小种群             50         0.01       0.8        15681.53        0.21        
+配置2: 标准参数            100        0.01       0.8        14841.67        0.30        
+配置3: 大种群             200        0.01       0.8        14226.12        1.26        
+配置4: 高变异率            100        0.05       0.8        12039.50        0.42        
+配置5: 高交叉率            100        0.01       0.9        13323.39        0.55        
+配置6: 长迭代             100        0.01       0.8        11563.86        0.71        
+
+数据集: Western Sahara (29 cities) (29 个城市)
+参数配置                 种群大小       变异率        交叉率        最佳距离            运行时间(s)     
+--------------------------------------------------------------------------------
+配置1: 小种群             50         0.01       0.8        44733.33        0.10        
+配置2: 标准参数            100        0.01       0.8        47054.14        0.16        
+配置3: 大种群             200        0.01       0.8        43243.46        0.56        
+配置4: 高变异率            100        0.05       0.8        38812.59        0.46        
+配置5: 高交叉率            100        0.01       0.9        38636.46        0.35        
+配置6: 长迭代             100        0.01       0.8        40046.63        0.42        

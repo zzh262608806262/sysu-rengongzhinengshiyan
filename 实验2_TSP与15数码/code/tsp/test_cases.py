@@ -5,8 +5,8 @@ data_dir = "data"
 
 # 测试数据集列表
 test_datasets = [
-    ("Western Sahara (29 cities)", f"{data_dir}/western_sahara.tsp"),
-    ("Random 100 cities", f"{data_dir}/random_100.tsp")
+    ("Djibouti (38 cities)", f"{data_dir}/dj38.tsp"),
+    ("Western Sahara (29 cities)", f"{data_dir}/wi29.tsp")
 ]
 
 # 测试参数设置

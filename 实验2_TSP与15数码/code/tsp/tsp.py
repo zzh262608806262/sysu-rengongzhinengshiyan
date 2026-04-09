@@ -34,16 +34,24 @@ class TSP:
     def read_cities_from_file(self, file_path):
         """从文件中读取城市坐标"""
         cities = []
+        read_coords = False
         with open(file_path, 'r') as f:
             for line in f:
-                parts = line.strip().split()
-                if len(parts) >= 3:
-                    try:
-                        x = float(parts[1])
-                        y = float(parts[2])
-                        cities.append((x, y))
-                    except ValueError:
-                        pass
+                line = line.strip()
+                if line == 'NODE_COORD_SECTION':
+                    read_coords = True
+                    continue
+                elif line == 'EOF':
+                    break
+                elif read_coords or not any(keyword in line.upper() for keyword in ['NAME:', 'COMMENT', 'TYPE:', 'DIMENSION:', 'EDGE_WEIGHT_TYPE:']):
+                    parts = line.split()
+                    if len(parts) >= 3:
+                        try:
+                            x = float(parts[1])
+                            y = float(parts[2])
+                            cities.append((x, y))
+                        except ValueError:
+                            pass
         self.cities = cities
         self.num_cities = len(cities)
         self.distance_matrix = self.calculate_distance_matrix()
